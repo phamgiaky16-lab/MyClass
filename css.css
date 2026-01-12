@@ -1,0 +1,118 @@
+*{
+    padding:0;
+	margin:0;
+	box-sizing: border-box;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+html {
+	font-family: Helvetica, Arial ;
+}
+
+/* Thanh màu đen đầu trang */
+
+#nav {
+	display:inline-block;
+}
+
+.nav-arrow-down{
+	font-size: 16px;
+}
+#header{
+	position: fixed;
+	top:0;
+	left:0;
+	right: 0;
+	height:46px;
+	background-color: #000;
+}
+
+#nav > li {
+	display: inline-block;
+	position: relative;	
+}
+
+#nav > li > a {
+	color: #fff;
+}
+
+#nav li a {
+	line-height:46px;
+	font-size: 20px;
+	padding: 0 30px;
+	display: block;
+	text-transform: uppercase;
+}
+
+#nav .subnav li a {
+	padding: 8px 16px;
+	line-height: 36px;
+	min-width: 180px;
+	color: #000;
+}
+
+#nav li:hover .subnav{
+	display: block;
+}
+
+#nav .subnav {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#nav > li:hover > a,
+#nav .subnav li:hover a{
+	background-color: #ccc;
+	color: #000;
+	
+}
+
+#header .search-button{
+	float: right;
+	padding: 8px 8px;
+}
+
+#header .search-button:hover {
+	background-color: red;
+}
+
+#sb1{
+	color: #fff;
+	font-size: 30px;
+}
+
+
+
+/* Thanh màu đen đầu trang */
+
+/* phần ảnh thay đổi được */
+#slider{
+	margin-top: 46px;
+	padding-top: 36%;
+	background: url('picture/background-class.jpg') no-repeat  bottom center / cover ;
+}
+
+#slider #text-content {
+	display: block;
+	color: #fff;
+	padding: 40px 0;
+	text-align:center;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+#slider #text-content .text-slider {
+	font-weight: 500;
+	font-size: 24px;
+	
+}
+
+#slider #text-content .sub-text-slider {
+	font-size: 15px;
+	margin: 12px 0 0 0;
+}
+
+/* phần ảnh thay đổi được */
